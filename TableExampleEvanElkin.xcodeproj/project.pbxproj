@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		374DB2411DB00A2300DD376C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DB2401DB00A2300DD376C /* AppDelegate.swift */; };
-		374DB2431DB00A2300DD376C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DB2421DB00A2300DD376C /* ViewController.swift */; };
 		374DB2461DB00A2300DD376C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374DB2441DB00A2300DD376C /* Main.storyboard */; };
 		374DB2481DB00A2300DD376C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374DB2471DB00A2300DD376C /* Assets.xcassets */; };
 		374DB24B1DB00A2300DD376C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374DB2491DB00A2300DD376C /* LaunchScreen.storyboard */; };
 		374DB2561DB00A2300DD376C /* TableExampleEvanElkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DB2551DB00A2300DD376C /* TableExampleEvanElkinTests.swift */; };
 		374DB2611DB00A2300DD376C /* TableExampleEvanElkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DB2601DB00A2300DD376C /* TableExampleEvanElkinUITests.swift */; };
+		374DB26F1DB00DF900DD376C /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DB26E1DB00DF900DD376C /* FruitsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		374DB23D1DB00A2300DD376C /* TableExampleEvanElkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableExampleEvanElkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DB2401DB00A2300DD376C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		374DB2421DB00A2300DD376C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		374DB2451DB00A2300DD376C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		374DB2471DB00A2300DD376C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374DB24A1DB00A2300DD376C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		374DB25C1DB00A2300DD376C /* TableExampleEvanElkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableExampleEvanElkinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DB2601DB00A2300DD376C /* TableExampleEvanElkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExampleEvanElkinUITests.swift; sourceTree = "<group>"; };
 		374DB2621DB00A2300DD376C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374DB26E1DB00DF900DD376C /* FruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				374DB2401DB00A2300DD376C /* AppDelegate.swift */,
-				374DB2421DB00A2300DD376C /* ViewController.swift */,
 				374DB2441DB00A2300DD376C /* Main.storyboard */,
 				374DB2471DB00A2300DD376C /* Assets.xcassets */,
 				374DB2491DB00A2300DD376C /* LaunchScreen.storyboard */,
 				374DB24C1DB00A2300DD376C /* Info.plist */,
+				374DB26E1DB00DF900DD376C /* FruitsTableViewController.swift */,
 			);
 			path = TableExampleEvanElkin;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374DB2431DB00A2300DD376C /* ViewController.swift in Sources */,
+				374DB26F1DB00DF900DD376C /* FruitsTableViewController.swift in Sources */,
 				374DB2411DB00A2300DD376C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
